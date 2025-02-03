@@ -1,0 +1,23 @@
+/* Zasady skalowania wielkości wyświetlanej zawartości */
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+html,
+body {
+  height: 100%;
+  
+}
+/* Zasada umożliwiająca rozszerzenie menu Tweakpane poza wielkość obszaru wyświetlanej zawartości */
+.tp-dfwv {
+    overflow: scroll;
+    max-height: 98%;
+    min-height: 98%;
+    overflow-x: hidden;
+}
