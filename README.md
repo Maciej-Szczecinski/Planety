@@ -26,7 +26,7 @@ Aby zainstalować projekt "Planety", wykonaj poniższe kroki:
 
 1. **Klonowanie repozytorium**:
     ```bash
-    git clone https://github.com/your-username/planety.git
+    git clone https://github.com/Maciej-Szczecinski/Planety.git
     cd planety
     ```
 
@@ -47,7 +47,7 @@ Aby uruchomić projekt lokalnie, wykonaj poniższe kroki:
     ```
 
 2. **Otwieranie w przeglądarce**:
-    Po uruchomieniu projektu, otwórz przeglądarkę i przejdź do adresu `http://localhost:3000`, aby zobaczyć wizualizację układu planetarnego.
+    Po uruchomieniu projektu, otwórz przeglądarkę i przejdź do adresu `http://localhost:5137`, aby zobaczyć wizualizację układu planetarnego.
 
 ## Przykładowy zestaw planet
 
