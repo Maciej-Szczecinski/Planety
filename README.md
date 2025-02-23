@@ -43,7 +43,7 @@ Aby uruchomić projekt lokalnie, wykonaj poniższe kroki:
 1. **Uruchomienie projektu**:
     Użyj poniższego polecenia, aby uruchomić projekt:
     ```bash
-    npm run dev
+    npm start
     ```
 
 2. **Otwieranie w przeglądarce**:
