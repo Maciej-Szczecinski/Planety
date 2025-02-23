@@ -311,8 +311,8 @@ function addPlanet(data) {
     const planet = {
         name: data?.name || `Planeta ${planets.length + 1}`,
         distance: data?.distance || baseSunSize * 2  + Math.random(),
-        size: data?.size || 0.005 + Math.random() * 10,
-        speed: data?.speed || 0.01 + Math.random(),
+        size: data?.size || 0.0005 + Math.random() * 0.015,
+        speed: data?.speed || 0.01 + Math.random() * 0.1,
         color: data?.color || `#${Math.floor(Math.random() * 16777215).toString(16)}`,
         moons: [],
         mesh: null,
@@ -379,9 +379,9 @@ function addPlanet(data) {
 function addMoon(planet, moonsFolder, data = {}) {
     const moon = {
         name: data?.name || `Księżyc ${planet.moons.length + 1}`,
-        distance: data?.distance || planet.size + Math.random(),
-        size: data?.size || 0.003 + Math.random() * 2,
-        speed: data?.speed || 1 + Math.random(),
+        distance: data?.distance || planet.size + Math.random() * 0.05,
+        size: data?.size || Math.min(planet.size * 0.8, 0.0001 + Math.random() * 0.0015),
+        speed: data?.speed || 5 + Math.random() * 50,
         color: data?.color || `#${Math.floor(Math.random() * 16777215).toString(16)}`,
         mesh: null
     };
