@@ -17,8 +17,8 @@ Projekt "Planety" to wizualizacja układu planetarnego z wykorzystaniem bibliote
 
 Aby uruchomić projekt "Planety", potrzebujesz:
 
-- Node.js (wersja 14 lub nowsza)
-- npm (wersja 6 lub nowsza)
+- Node.js (wersja 18 lub nowsza)
+- npm (wersja 9 lub nowsza)
 
 ## Instalacja
 
