@@ -35,6 +35,7 @@ Aby zainstalować projekt "Planety", wykonaj poniższe kroki:
     ```bash
     npm install
     ```
+    Projekt nie jest "zbudowany" więc nie uruchamia się domyślnym poleceniem "npm start".
 
 ## Konfiguracja i uruchomienie
 
