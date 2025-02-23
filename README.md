@@ -35,7 +35,6 @@ Aby zainstalować projekt "Planety", wykonaj poniższe kroki:
     ```bash
     npm install
     ```
-    Projekt nie jest "zbudowany" więc nie uruchamia się domyślnym poleceniem "npm start".
 
 ## Konfiguracja i uruchomienie
 
@@ -46,6 +45,7 @@ Aby uruchomić projekt lokalnie, wykonaj poniższe kroki:
     ```bash
     npm run dev
     ```
+   Projekt nie jest "zbudowany" więc nie uruchamia się domyślnym poleceniem "npm start".
 
 2. **Otwieranie w przeglądarce**:
     Po uruchomieniu projektu, otwórz przeglądarkę i przejdź do adresu `http://localhost:5137`, aby zobaczyć wizualizację układu planetarnego.
